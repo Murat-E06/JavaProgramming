@@ -1,0 +1,22 @@
+package day34_GarbageCollection_AccessModifiers;
+
+public class StaticBlock {
+
+    public static void main(String[] args) {
+        System.out.println("Main method");
+    }
+
+
+    static {
+        System.out.println("Static Block1");//runs firs before anything and only runs one time!
+    }
+    static {
+        System.out.println("Static Block2");
+    }
+
+
+
+
+
+
+}

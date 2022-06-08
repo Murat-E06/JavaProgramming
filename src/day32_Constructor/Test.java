@@ -1,0 +1,30 @@
+package day32_Constructor;
+
+public class Test {
+//ıt is confusing hard to understand
+    public Test() {//A
+        System.out.println("A");
+    }
+
+    public Test(int a) {//A B
+        this();
+        System.out.println("B");
+    }
+
+    public Test(double a) {//A B C
+        this(10);
+        System.out.println("C");
+    }
+
+    public Test(String str) {//A B C D
+        this(2.5);
+        System.out.println("D");
+    }
+
+    public static void main(String[] args) {
+        new Test(2);//A B (altalta)
+        new Test("Java");//A B C D (altalta)
+    }
+
+
+}
