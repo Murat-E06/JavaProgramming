@@ -14,6 +14,7 @@ public class Array {
             arr3[i] = arr1[i];
         }
         System.out.println(Arrays.toString(arr3));
+
         for (int i = arr1.length, j = 0; i < arr3.length; i++, j++) {
             arr3[i] = arr2[j];
         }

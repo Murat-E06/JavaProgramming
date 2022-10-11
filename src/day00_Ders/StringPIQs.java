@@ -9,8 +9,7 @@ public class StringPIQs {
     school
     output:
     C.S
-    Note: Pay attention to the example output
-         */
+        */
         String first = "cydeo";
         String second = "school";
 
@@ -20,11 +19,9 @@ public class StringPIQs {
         Second sol:
          char f = first.toUpperCase().charAt(0);
          char l = second.toUpperCase().charAt(0);
-
         System.out.println(f + "." + l);
          */
         System.out.println("---------------------------------");
-
         /*
          2. Write a program that can check if the given String is palindrome
         Ex:
@@ -33,7 +30,6 @@ public class StringPIQs {
         input: Anna
         output: true
          */
-
         String given = "Level";
         String reverse = "";
 
@@ -93,10 +89,8 @@ public class StringPIQs {
            if(str3.indexOf(ch)==str3.lastIndexOf(ch)){
                unique+=ch;
            }
-
         }
         System.out.println("unique = " + unique);
-
 
     }
 }

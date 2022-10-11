@@ -50,7 +50,6 @@ public class ArrayList2_PIQ {
                 if(each.equals(element)){
                     freq++;
                 }
-
             }
             if(freq==1){
                 System.out.println(element);
