@@ -3,6 +3,7 @@ package day00_Ders;
 import java.util.Scanner;
 
 public class SumOfNumber {
+
     public static void main(String[] args) {
 
         Scanner scan=new Scanner(System.in);
@@ -24,6 +25,8 @@ public class SumOfNumber {
 
 
     }
+
+
 }
 /*
 Write a program that calculates the sum of numbers entered by the user until user enters a negative number.

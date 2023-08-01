@@ -14,7 +14,6 @@ public class StringPIQs {
         String second = "school";
 
         System.out.println(first.toUpperCase().substring(0, 1) + "." + second.toUpperCase().substring(0, 1));
-
         /*
         Second sol:
          char f = first.toUpperCase().charAt(0);
@@ -71,7 +70,7 @@ public class StringPIQs {
         String reversed = "";
 
         for (int i = str2.length() - 1; i >= 0; i--) {
-           reversed+= str2.charAt(i);
+            reversed += str2.charAt(i);
 
         }
         System.out.println("reversed = " + reversed);
@@ -80,15 +79,20 @@ public class StringPIQs {
         5. Write a program that can return the unique characters from a String
         Ex :
         input:  AABCCD
-        output: BD
+        output: BD  ,;``,`
          */
-        String str3="AABCCD";
-        String unique="";
-        for (int i = 0; i <str3.length() ; i++) {
-            String ch=""+str3.charAt(i);
-           if(str3.indexOf(ch)==str3.lastIndexOf(ch)){
-               unique+=ch;
-           }
+
+
+
+
+        String str3 = "AABCCD";
+        String unique = "";
+
+        for (int i = 0; i < str3.length(); i++) {
+            String ch = "" + str3.charAt(i);
+            if (str3.indexOf(ch) == str3.lastIndexOf(ch)) {
+                unique += ch;
+            }
         }
         System.out.println("unique = " + unique);
 

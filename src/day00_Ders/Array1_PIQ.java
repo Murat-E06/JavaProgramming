@@ -11,6 +11,7 @@ public class Array1_PIQ {
             output: max = 20  min=0;
          */
 
+
         int[] numbers = {10, 5, 4, 20, 1, 0};
 
         int max = numbers[0];
@@ -58,17 +59,14 @@ public class Array1_PIQ {
 
         String[] names = {"Ahmet Özparlak", "Recai Parlak", "Doğukan Özer", "Hatice Biçer", "Cemal Kiraz"};
 
-        for (int j = names.length-1; j >=0 ; j--) {
-            String result="";
+        for (int j = names.length - 1; j >= 0; j--) {
+            String result = "";
 
-            for (int i = names[j].length()-1; i >=0 ; i--) {
-                result+=names[j].charAt(i);
+            for (int i = names[j].length() - 1; i >= 0; i--) {
+                result += names[j].charAt(i);
             }
             System.out.println(result);
         }
-
-
-
 
 
     }

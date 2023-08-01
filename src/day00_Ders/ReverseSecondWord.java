@@ -23,6 +23,19 @@ public class ReverseSecondWord {
             System.out.print(each+" ");
 
         }
+        System.out.println();
+        System.out.println("-----------------------------");
+        String str2 = "Zeynep Beyza Erbas";
+        String[] arr2=str2.split(" ");
+        System.out.println(Arrays.toString(arr2));
+
+        String reversed2="";
+        for (int i = arr2[1].length()-1; i >=0 ; i--) {
+            reversed2+=arr2[1].charAt(i);
+        }
+        System.out.println(reversed2);
+        arr2[1]=reversed2;
+        System.out.println(Arrays.toString(arr2));
 
 
     }
